@@ -1,0 +1,198 @@
+body {
+    font-family: 'lato', sans-serif; /* Change font family */
+    line-height: 1.6; /* Improved line height */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Text color */
+    background-color: #f4f4f4; /* Light background color */
+}
+
+header {
+    
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 80px 50px;
+}
+
+h1 {
+    font-size: 7em; /* Larger heading size */
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 2em; /* Section heading size */
+    color: #0056b3; /* Primary color */
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 2em; /* Project title size */
+    color: #333;
+    margin: 10px 0;
+}
+
+ p1 {
+    font-size: 2em; /* Normal text size */
+    margin: 10px 0;
+p2{
+    font-size: 4em;
+    font-weight: bold;
+}
+}
+p {
+    font-size: 1.5em; /* Normal text size */
+    margin: 10px 0;
+}
+
+.profile-pic {
+    border-radius: 50%; /* Circular profile picture */
+    width: 450px; /* Set width */
+    height: 450px; /* Set height */
+    object-fit: cover; /* Ensures the image covers the dimensions without distortion */
+    margin: 20px 0; /* Add margin for spacing */
+
+}
+
+.video-background video {
+    width: 120%; /* Responsive video */
+    height: absolute;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Send video behind other content */
+}
+
+.bold-text {
+    font-weight: bold; /* Makes text bold */
+    font-size: 20px;  /* Increases font size */
+    line-height: 1.5; /* Increases the height (space) between lines */
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff; /* White background for sections */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.tech-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Space between buttons */
+    justify-content: center; /* Center the buttons */
+    margin: 20px 0
+}
+
+.skills-button {
+    background-color: #eff3f8; /* Button background color */
+    color: rgb(4, 4, 4); /* Button text color */
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px; /* Rounded button corners */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth hover transition */
+    font-size: 1.2em; /* Font size */
+}
+
+.skills-button:hover {
+    background-color: #e7eaed; /* Darker blue on hover */
+    transform: scale(1.05);
+}
+
+.project-content {
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+.project-image {
+    width: 250px; /* Set image width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between image and text */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.project-image:hover {
+    transform: scale(1.05); /* Enlarge image on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #040505; /* Footer background color */
+    color: white; /* Footer text color */
+}
+nav {
+    background-color: #0b0c0d; /* Navbar background color */
+    padding: 15px; /* Spacing around the navbar */
+    display: flex; /* Use flexbox for layout */
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav-links {
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Flexbox for horizontal layout */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.nav-links li {
+    margin: 0 15px; /* Space between the items */
+}
+
+.nav-links a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make the text bold */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.nav-links a:hover {
+    color: #ffcc00; /* Change color on hover */
+}
+
+.nav-logo {
+    margin-right: -1000px; /* Space between logo and menu */
+}
+.logo {
+    height: 50px; /* Set the height of the logo */
+    width: fit-content; /* Maintain aspect ratio */
+}
+nav ul {
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Flexbox for horizontal layout */
+    justify-content: right; /* Center the items */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+nav ul li {
+    margin: 0 15px; /* Space between the items */
+}
+nav ul li a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make the text bold */
+    transition: color 0.3s; /* Smooth color transition */
+}
+nav ul li a:hover {
+    color: #ffcc00; /* Change color on hover */
+}
+.resume-button {
+    margin: 20px 0; /* Space around the button */
+}
+
+.resume-button a {
+    display: inline-block; /* Allow padding and margins */
+    background-color: #0056b3; /* Button background color */
+    color: white; /* Button text color */
+    padding: 15px 25px; /* Padding for the button */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s; /* Smooth hover transition */
+}
+
+.resume-button a:hover {
+    background-color: #003d7a; /* Darker blue on hover */
+}
